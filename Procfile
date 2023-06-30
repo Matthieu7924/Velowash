@@ -1,1 +1,1 @@
-web: vendor/bin/heroku-php-apache2 SRC/templates/layout.php
+web: vendor/bin/heroku-php-apache2 SRC/views/layout.php
