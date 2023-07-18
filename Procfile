@@ -1,4 +1,4 @@
-web: heroku-php-apache2 index.php
+web: apache2 -f index.php -p $PORT
 
 
 
