@@ -43,4 +43,4 @@ if (isset($_FILES['image'])) {
     $images = $query->fetchAll();
 }
 
-require_once realpath("SRC/views/formFichiers.php");
+require_once realpath("SRC/Views/formFichiers.php");

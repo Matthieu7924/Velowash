@@ -27,4 +27,4 @@ if (isset($_POST["name"])) {
     }
 }
 
-require_once("SRC/views/inscription.php");
+require_once("SRC/Views/inscription.php");

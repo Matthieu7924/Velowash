@@ -18,4 +18,4 @@ $User= new Users([
 $UserEdit=$usersManager->editUser($User);
 }
 
-require realpath("SRC/views/editUser.php");
+require realpath("SRC/Views/editUser.php");

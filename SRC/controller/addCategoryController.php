@@ -29,4 +29,4 @@ $allcateg = $bdd->query('SELECT * FROM categories ORDER BY name ASC');
 
 
 
-require_once realpath("SRC/views/addCategorie.php");
+require_once realpath("SRC/Views/addCategorie.php");

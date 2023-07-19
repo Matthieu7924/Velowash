@@ -99,5 +99,5 @@ echo "</pre>";
 
 
 
-require_once realpath("SRC/views/forum.php");
+require_once realpath("SRC/Views/forum.php");
 

@@ -22,4 +22,4 @@ if (isset($_POST['select'])) {
     $stationUniqueNote = $query->fetchAll();
 }
 
-require_once realpath("SRC/views/carte.php");
+require_once realpath("SRC/Views/carte.php");

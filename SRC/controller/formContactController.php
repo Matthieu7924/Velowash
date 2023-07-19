@@ -35,5 +35,5 @@ if(isset($_POST['mailform']))
 			echo $msg;
 		}
 
-require_once realpath("SRC/views/formContact.php");
+require_once realpath("SRC/Views/formContact.php");
 

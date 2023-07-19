@@ -11,4 +11,4 @@ if (isset($_GET['supp'])) {
 
     $allmsg = $bdd->query('SELECT * FROM messages ORDER BY id DESC');
 
-require_once realpath("SRC/views/editAllMessages.php");
+require_once realpath("SRC/Views/editAllMessages.php");

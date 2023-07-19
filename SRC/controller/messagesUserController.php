@@ -7,4 +7,4 @@ $query->execute(array($_GET['id']));
 
 $allUserMsg= $query->fetchAll();
 // var_dump($allUserMsg);
-require_once realpath("SRC/views/messagesUser.php");
+require_once realpath("SRC/Views/messagesUser.php");

@@ -4,5 +4,5 @@
 $allcateg = $catManager->getCategory();
 $allroom = $roomManager->getRoom($allcateg);
 
-require_once realpath("SRC/views/listChat.php");
+require_once realpath("SRC/Views/listChat.php");
 ?>

@@ -1,2 +1,2 @@
 <?php
-require_once realpath("SRC/views/pistes.php");
+require_once realpath("SRC/Views/pistes.php");

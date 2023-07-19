@@ -1,2 +1,2 @@
 <?php
-require_once realpath("SRC/views/options.php");
+require_once realpath("SRC/Views/options.php");

@@ -13,4 +13,4 @@ if (
     $insertcat->execute(array($categorie));
 }
 
-require_once realpath("SRC/views/addCategorie.php");
+require_once realpath("SRC/Views/addCategorie.php");

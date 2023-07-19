@@ -32,5 +32,5 @@
 // }
 
 // require_once("SRC/views/.php");
-require_once realpath("SRC/views/deleteMessage.php");
+require_once realpath("SRC/Views/deleteMessage.php");
 

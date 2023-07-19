@@ -1,3 +1,3 @@
 <?php
 
-    require_once("SRC/views/home.php");
+    require_once("SRC/Views/home.php");

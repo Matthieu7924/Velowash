@@ -46,6 +46,6 @@ if (isset($valider)) {
     }
 }
 
-require_once realpath("SRC/views/inscriptionMC.php");
+require_once realpath("SRC/Views/inscriptionMC.php");
 
 

@@ -10,5 +10,5 @@ $UserDelete=$usersManager->deleteUser($User);
 }
 
 
-require realpath("SRC/views/deleteUser.php");
+require realpath("SRC/Views/deleteUser.php");
 

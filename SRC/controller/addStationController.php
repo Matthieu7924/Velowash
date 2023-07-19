@@ -28,4 +28,4 @@ if (
 $allstations = $bdd->query('SELECT * FROM stations ORDER BY name ASC');
 $allStations = $bdd->query('SELECT * FROM stations ORDER BY name ASC');
 
-require_once realpath("SRC/views/addStation.php");
+require_once realpath("SRC/Views/addStation.php");
