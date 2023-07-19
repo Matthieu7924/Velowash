@@ -19,8 +19,8 @@ if ($env === 'prod') {
 }
 else {
     // Configuration pour l'environnement de développement local
-    // $bdd = new PDO('sqlite:SRC/database/chat.db');
-    $bdd = new PDO('mysql:host=localhost;dbname=chat', 'root', 'root');
+    $bdd = new PDO('sqlite:SRC/database/chat.db');
+    // $bdd = new PDO('mysql:host=localhost;dbname=chat', 'root', 'root');
 
 
     $bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
