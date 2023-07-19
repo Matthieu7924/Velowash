@@ -59,7 +59,7 @@ if (isset($_GET['page'])&&($_GET["page"]=="data")) {
 ?>
 <body>
     <?php 
-    require_once realpath("SRC/Views/layout.php"); 
+    require_once realpath("SRC/views/layout.php"); 
     ?>
 
 </body>
