@@ -39,7 +39,9 @@ if ($env === 'prod') {
     // Utilisez la variable $bdd pour la connexion à votre base de données
 } else {
     // Configuration pour l'environnement de développement local
-    $bdd = new PDO('sqlite:SRC/database/chat.db');
+    // $bdd = new PDO('sqlite:SRC/database/chat.db');
+    $bdd = new PDO('mysql:host=localhost;dbname=chat', 'root', 'root');
+
     $bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     $bdd->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
 }
