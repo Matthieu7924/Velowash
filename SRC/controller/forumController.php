@@ -16,7 +16,7 @@ if (
 }
 
 $allcateg = $bdd->query('SELECT * FROM categories ORDER BY name');
-$allroom = $bdd->query('SELECT * FROM rooms ORDER BY name');
+$allroom = $bdd->query('SELECT * FROM room ORDER BY name');
 // $msgParPage =10;
 
 if (isset($_GET['p']) && !empty($_GET['p'])) {
